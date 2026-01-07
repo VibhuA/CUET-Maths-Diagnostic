@@ -92,7 +92,7 @@ if not st.session_state.started:
     ---
     **Instructions:**
     * • This is an **adaptive test** (difficulty adjusts based on your performance).
-    * • **Total Questions:** 50
+    * • **Total Questions:** 10
     * • Real-time ability estimation and **behavior analytics** (speed/guessing) are active.
     * • Please ensure you have a stable environment before starting.
     ---
@@ -203,4 +203,5 @@ else:
 
     if st.button("Exit and Restart"):
         st.session_state.clear()
+
         st.rerun()
